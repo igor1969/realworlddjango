@@ -4,12 +4,12 @@ from .models import Category, Event
 
 
 @admin.register(Event)
-class BrandAdmin(admin.ModelAdmin):
+class EventAdmin(admin.ModelAdmin):
     pass
 
 
 @admin.register(Category)
-class BrandAdmin(admin.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin):
     pass
 
 
